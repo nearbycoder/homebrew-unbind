@@ -1,27 +1,27 @@
 class Unbind < Formula
   desc "Share TCP or UDP services over encrypted peer connections"
   homepage "https://unbind.dev"
-  version "0.2.1"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://unbind.dev/downloads/releases/0.2.1/unbind-darwin-arm64"
-      sha256 "0d7df3c93dece3dd3581843aea7b234c965b5aa6678aad85c6168a3d0595dd91"
+      url "https://unbind.dev/downloads/releases/0.3.0/unbind-darwin-arm64"
+      sha256 "04780bdff295d6a85770e1e7300c62edbf77b63073f6dbbcda538bf57000445f"
     end
     on_intel do
-      url "https://unbind.dev/downloads/releases/0.2.1/unbind-darwin-amd64"
-      sha256 "14d5f9b824f6f0a6d8070ff01bddc413a9d7c5ddcc1f8e4a2db639dbf4fe66ac"
+      url "https://unbind.dev/downloads/releases/0.3.0/unbind-darwin-amd64"
+      sha256 "03cabc403cb382894fa737f4261cf6e62993db136ff5516f81f4765b40e9360e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://unbind.dev/downloads/releases/0.2.1/unbind-linux-arm64"
-      sha256 "5f9fbb85267a80a749cf721ecf587781ae199ccd967dee85f128814f67bfffd0"
+      url "https://unbind.dev/downloads/releases/0.3.0/unbind-linux-arm64"
+      sha256 "27ba8f65866f9ff5ec890f62c4f75a1e75dd65a70955126f1df8d02f80681162"
     end
     on_intel do
-      url "https://unbind.dev/downloads/releases/0.2.1/unbind-linux-amd64"
-      sha256 "36e7dbf9ca5fd97299c33ea32bb2f93ad0c76823fbd763002d444b9dfcae40cc"
+      url "https://unbind.dev/downloads/releases/0.3.0/unbind-linux-amd64"
+      sha256 "41a11c5852cd90decf7ea7594d5e2a0178b39cb64caeee9cd9faed446573c484"
     end
   end
 
